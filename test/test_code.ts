@@ -1,6 +1,6 @@
 import { expect } from "chai";
-import { createBlockchain, addBlock } from "../Node/src/Blockchain";
-import { createProofOfWork, validate } from "../Node/src/ProofOfWork";
+import { createBlockchain, addBlock } from "../src/Blockchain";
+import { createProofOfWork, validate } from "../src/ProofOfWork";
 
 describe('Blockchain Test', () => {
   it('should create new blockchain', () => {
